@@ -1,7 +1,7 @@
 // Feature: Landing Page Navigation
 describe("Landing Page Navigation", () => {
   beforeEach(() => {
-    cy.visit("https://example.cypress.io/");
+    cy.visit("http://localhost:8080/");
   });
 
   it("Displays the landing page correctly", () => {
@@ -18,7 +18,7 @@ describe("Landing Page Navigation", () => {
 // Feature: Navigation Bar Interaction
 describe("Navigation Bar Interaction", () => {
   beforeEach(() => {
-    cy.visit("https://example.cypress.io/");
+    cy.visit("http://localhost:8080/");
   });
 
   it("Navigates the Commands link", () => {
@@ -45,7 +45,7 @@ describe("Navigation Bar Interaction", () => {
 // Feature: Landing Page Content
 describe("Landing Page Content", () => {
   beforeEach(() => {
-    cy.visit("https://example.cypress.io/");
+    cy.visit("http://localhost:8080/");
   });
 
   it("Viewing the Introduction banner", () => {
@@ -81,7 +81,7 @@ describe("Landing Page Content", () => {
 // Feature: External Links and Resources
 describe("External Links and Resources", () => {
   beforeEach(() => {
-    cy.visit("https://example.cypress.io/");
+    cy.visit("http://localhost:8080/");
   });
 
   it("Accessing the GitHub repository", () => {
